@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "773038B11D3896F9008B8253"
+               BuildableName = "LaxRank02.app"
+               BlueprintName = "LaxRank02"
+               ReferencedContainer = "container:LaxRank02.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "773038C51D3896F9008B8253"
+               BuildableName = "LaxRank02Tests.xctest"
+               BlueprintName = "LaxRank02Tests"
+               ReferencedContainer = "container:LaxRank02.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "773038D01D3896F9008B8253"
+               BuildableName = "LaxRank02UITests.xctest"
+               BlueprintName = "LaxRank02UITests"
+               ReferencedContainer = "container:LaxRank02.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "773038B11D3896F9008B8253"
+            BuildableName = "LaxRank02.app"
+            BlueprintName = "LaxRank02"
+            ReferencedContainer = "container:LaxRank02.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "773038B11D3896F9008B8253"
+            BuildableName = "LaxRank02.app"
+            BlueprintName = "LaxRank02"
+            ReferencedContainer = "container:LaxRank02.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "773038B11D3896F9008B8253"
+            BuildableName = "LaxRank02.app"
+            BlueprintName = "LaxRank02"
+            ReferencedContainer = "container:LaxRank02.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
